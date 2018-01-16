@@ -9,14 +9,14 @@ subnav:
   # weibo: "#"
   # rss: "#"
   # zhihu: "#"
-  #qq: "#"
+  # qq: "1205618806"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  # mail: "1205618806@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -67,7 +67,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: /my_img/head.jpg
+avatar: /head.jpg
 
 #是否开启分享
 share_jia: true
@@ -106,7 +106,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false

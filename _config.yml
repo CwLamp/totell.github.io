@@ -4,11 +4,11 @@
 
 # Site
 title: GuaTai's Blog
-subtitle:
-description: 掉头发都愁死我了
+subtitle: 掉头发都愁死我了
+description: 
 author: GuaTai
-language:
-timezone:
+language: 
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
