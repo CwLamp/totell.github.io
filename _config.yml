@@ -78,7 +78,7 @@ theme: hexo-theme-yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@totell:totell/totell.github.io.git
+  repo: git@github.com:totell/totell.github.io.git
   branch: master
 
 # 主题里面的所有文章设置
