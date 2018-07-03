@@ -4,9 +4,9 @@
 
 # Site
 title: Write something casually
-subtitle: 掉头发都愁死我了
+subtitle: 嘿、嘿嘿
 description: 
-author: (没有想好名字)
+author: LuckyAir.Wang
 language: 
 timezone: 
 
@@ -78,7 +78,7 @@ theme: hexo-theme-yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:totell/totell.github.io.git
+  repo: ssh://git@github.com/CwLamp/totell.github.io.git
   branch: master
 
 # 主题里面的所有文章设置
