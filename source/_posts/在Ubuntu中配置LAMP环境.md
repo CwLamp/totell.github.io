@@ -2,10 +2,10 @@
 title: 在Ubuntu中配置LAMP环境
 date: 2017-06-07 11:20:16
 tags:
- -Ubuntu
- -PHP
- -MySQL
- -Apache2
+ - Ubuntu
+ - PHP
+ - MySQL
+ - Apache2
 ---
 
 ## Apache
