@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Write something casually
-subtitle: 嘿、嘿嘿
+title: Inaout-记录成长
+subtitle: 总是在蹒跚学步<br>何时才能走出自己的路
 description: 
-author: LuckyAir.Wang
+author: Inaout
 language: 
 timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.totell.com
+url: http://www.Inaout.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,13 +72,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-yilia
+theme: hexo-theme-next-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/CwLamp/totell.github.io.git
+  repo: git@github.com:inaout/inaout.github.io.git
   branch: master
 
 # 主题里面的所有文章设置
