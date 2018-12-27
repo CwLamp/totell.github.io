@@ -23,6 +23,7 @@ Python使用多进程还是比较方便的，可以使用multiprocessing模块�
 from multiprocessing import Process, Queue
 ```
 
+<!-- more -->
 ### 0x02 完成写入数据的函数
 ``` Python
 # 写数据进程执行的代码
