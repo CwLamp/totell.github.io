@@ -2,6 +2,8 @@
 title: Pycharm远程Linux开发和调试
 date: 2018-01-19 17:31:01
 tags: 
+ - Python
+ - Pycharm
 ---
 ## 遇到了点小问题，需要用到这个方法，写下来记录一下，方便以后自己查看
 
