@@ -3,7 +3,6 @@ title: Linux&Windows双系统时间错误
 date: 2018-12-31 12:36:21
 tags:
  - Linux
- - 操作系统
 ---
 
 # 闲聊
@@ -13,7 +12,7 @@ tags:
 ## 0x00 三种时钟
 ### 实时时钟（REAL-TIME CLOCK, RTC）
 实时时钟是PC主板上的晶振及相关电路组成的时钟电路的生成脉冲，它控制着计算机系统的时间。操作系统中所提到的RTC，指的就是在计算机主板控制下的时间，即系统时间，为计算机硬件的内部时钟。
-
+<!-- more -->
 ### 协调世界时（COORDINATED UNIVERSAL TIME, UTC）
 协调世界时（英语：Coordinated Universal Time，法语：Temps Universel Coordonné，简称UTC）是最主要的世界时间标准，其以原子时秒长为基础，在时刻上尽量接近于格林尼治标准时间。
 
