@@ -13,10 +13,10 @@ tags:
 
 # 正文
 ## 线程&进程
-其实在Python中的多线程其实是假的，Python有一个GIL全局锁，以至于无法使用真正的多线程，所以呢很多情况下会去使用多进程，这里就涉及到了多个进程之间会涉及到共享数据，就引出了今天的话题，Python语言中的进程间通讯
+其实在Python中的多线程是假的，Python有一个GIL全局锁，以至于无法使用真正的多线程，所以呢很多情况下会去使用多进程，这里就涉及到了多个进程之间共享数据，就引出了今天的话题，Python语言中的进程间通讯。
 
 ## 第一种方式
-### 0x01 多进程模块
+### 0x00 多进程模块
 Python使用多进程还是比较方便的，可以使用multiprocessing模块来实现。
 首先通过模块引入需要的东西。我们先使用Queue的方式。
 ``` python
@@ -24,7 +24,7 @@ from multiprocessing import Process, Queue
 ```
 
 <!-- more -->
-### 0x02 完成写入数据的函数
+### 0x01 完成写入数据的函数
 ``` Python
 # 写数据进程执行的代码
 def proc_write(q, urls):
@@ -35,7 +35,7 @@ def proc_write(q, urls):
         time.sleep(random.random())
 ```
 
-### 0x03 完成读取数据的函数
+### 0x02 完成读取数据的函数
 ``` Python
 # 读数据进程的代码
 def proc_read(q):
@@ -45,7 +45,7 @@ def proc_read(q):
         print('Get %s from queue' % url)
 ```
 
-### 0x04 完成试验的主逻辑代码
+### 0x03 完成试验的主逻辑代码
 ``` python
 if __name__ == "__main__":
     # 父进程创建Queue 并传给各个进程
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     prco_reader.terminate()
 ```
 
-### 0x05 实验输出
+### 0x04 实验输出
 ``` bash
 Process is write......
 Process is write......
@@ -86,13 +86,13 @@ put url5 to queue...
 ```
 
 ## 第二种方式
-### 0x01 多进程模块
+### 0x00 多进程模块
 第一种方式使用了Queue，第二种方式使用Pipe
 ``` python
 import multiprocessing
 ```
 
-### 0x02 写入的代码
+### 0x01 写入的代码
 ``` python
 #写数据进程执行的代码
 def proc_send(pipe,urls):
@@ -103,7 +103,7 @@ def proc_send(pipe,urls):
         time.sleep(random.random())
 ```
 
-### 0x03 读取的代码
+### 0x02 读取的代码
 ``` python
 #读数据进程的代码
 def proc_recv(pipe):
@@ -112,7 +112,7 @@ def proc_recv(pipe):
         time.sleep(random.random())
 ```
 
-### 0x04 主逻辑代码
+### 0x03 主逻辑代码
 ``` python
 if __name__ == '__main__':
     #父进程创建pipe，并传给各个子进程
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     p2.terminate()
 ```
 
-### 0x05 实验输出
+### 0x04 实验输出
 ``` bash
 Process is send :url_0
 Process rev:url_0
