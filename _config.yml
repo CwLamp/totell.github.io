@@ -100,3 +100,11 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true
+  version: "8.0.0"
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true
