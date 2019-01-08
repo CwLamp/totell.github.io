@@ -1,5 +1,9 @@
-# 在Hexo中使用mermaid
-在Hexo中使用mermaid需要先引入一些模块，并配置参数。
+---
+title: 在Hexo中引入mermaid
+date: 2019-01-8 11:42:03
+tags: 
+ - Markdown
+---
 
 # 安装模块
 ```bash
